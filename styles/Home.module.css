@@ -10,6 +10,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 40px;
+  /* height: 120px; */
 }
 
 .idTitle {
@@ -19,9 +20,9 @@
 }
 
 .iconNav {
-  padding-top: 30px;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  font-size: 40px;
 }
 
 .title {
@@ -51,15 +52,9 @@
 }
 
 .material-symbols-outlined {
-  font-family: "Material Symbols Outlined";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px; /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
