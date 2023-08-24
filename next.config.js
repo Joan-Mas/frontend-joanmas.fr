@@ -9,6 +9,7 @@
 // module.exports = nextConfig;
 
 // next.config.js
+
 module.exports = {
   // ...
   webpack: (config) => {

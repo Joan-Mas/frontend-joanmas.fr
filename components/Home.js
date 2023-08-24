@@ -1,5 +1,6 @@
 import styles from "../styles/Home.module.css";
 import BgVideo from "../assets/background.mp4";
+import Link from 'next/link';
 
 function Home() {
   return (
@@ -15,14 +16,15 @@ function Home() {
 
         <div className={styles.header}>
           <div className={styles.iconNav}>
-            <span class="material-symbols-outlined">menu</span>
+            <Link href="/navbar">
+              <span class="material-symbols-outlined">menu</span>
+            </Link>
           </div>
 
           <div className={styles.idTitle}>
             <h1 className={styles.title}>Joan Mas</h1>
             <h2 className={styles.underTitle}>Developer</h2>
           </div>
-
         </div>
       </main>
     </div>
