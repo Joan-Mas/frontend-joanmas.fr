@@ -13,7 +13,7 @@ function Home() {
           <source src={BgVideo} type="video/mp4" />
         </video>
 
-        <div className={styles.container}>
+        
           <div className={styles.header}>
             <div className={styles.iconNav}>
               <span class="material-symbols-outlined">menu</span>
@@ -24,7 +24,7 @@ function Home() {
               <h2 className={styles.underTitle}>Developer</h2>
             </div>
 
-          </div>
+          
         </div>
       </main>
     </div>
