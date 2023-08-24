@@ -22,6 +22,7 @@ function Home() {
             <h1 className={styles.title}>Joan Mas</h1>
             <h2 className={styles.underTitle}>Developer</h2>
           </div>
+
         </div>
       </main>
     </div>
