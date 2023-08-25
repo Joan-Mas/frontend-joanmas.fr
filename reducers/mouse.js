@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  value: false,
+  value: true,
 };
 
 // création d'un reducer chargé d'enregistrer la valeur true or false du curseur
