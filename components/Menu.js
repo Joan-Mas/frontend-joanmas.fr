@@ -6,11 +6,11 @@ function Menu() {
   return (
     
       <div className={styles.menuContainer}>
- 
-        <Link href="/" className={styles.menuItem}>Home</Link>
-        <Link href="/portfolio" className={styles.menuItem}>Portfolio</Link>
-        <Link href="/about" className={styles.menuItem}>About</Link>
-        <Link href="/contact" className={styles.menuItem}>Contact</Link>
+
+        <Link href="/"><div className={styles.menuItem}>Home</div></Link>
+        <Link href="/portfolio"><div className={styles.menuItem}>Portfolio</div></Link>
+        <Link href="/about"><div className={styles.menuItem}>About</div></Link>
+        <Link href="/contact"><div className={styles.menuItem}>Contact</div></Link>
 
       </div>
     
