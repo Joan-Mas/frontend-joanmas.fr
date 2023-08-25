@@ -1,0 +1,22 @@
+.container {
+  width: 100vw;
+  padding: 10px 0px 10px 10px;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  width: 20%;
+  height: auto;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.menuItem {
+  font-family: "Manrope", sans-serif;
+  font-size: 10;
+  font-weight: 50;
+}
