@@ -1,17 +1,8 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-//   images: {
-//     domains: [],
-//   },
-// };
-
-// module.exports = nextConfig;
-
-// next.config.js
-
 module.exports = {
-  // ...
+  reactStrictMode: true,
+  images: {
+    domains: [], // Ajoutez les domaines d'où proviendront vos images
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(mp4|webm)$/i, // Ajoutez tous les formats vidéo que vous utilisez
@@ -31,3 +22,4 @@ module.exports = {
     return config;
   },
 };
+
