@@ -35,7 +35,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
@@ -47,14 +47,35 @@
 
 .itemAbout {
   margin: 20px;
-  width: 20%;
+  width: 10%;
   height: auto;
-  /* border: solid 2px white;
-  border-radius: 25px; */
+  border: solid 2px white;
+  border-radius: 25px;
 
 }
 
+.cv {
+  font-family: "Manrope", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 200px;
+  height: 30px;
+  border: solid 2px white;
+  border-radius: 25px;
+  text-decoration: none;
+  
+}
 
+.cv:hover {
+  width: 220px;
+  height: 40px;
+  font-style: bold;
+  background-color: rgba(248, 51, 169, 0.515);
+  cursor: none;
+}
 
 .link {
   color: white;
@@ -62,4 +83,6 @@
 
 .link:hover {
   color: rgb(33, 222, 251);
+  cursor: none;
 }
+

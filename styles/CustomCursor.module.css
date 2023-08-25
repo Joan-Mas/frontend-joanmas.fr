@@ -1,0 +1,19 @@
+.customCursor {
+  width: 15px;
+  height: 15px;
+  background-color: white; /* Couleur blanche */
+  border-radius: 50%;
+  position: fixed; /* Utilisez "fixed" pour que le curseur suive la souris */
+  pointer-events: none; /* Permettre les interactions avec les éléments sous le curseur */
+  z-index: 9999; /* Assurez-vous qu'il est au-dessus du contenu */
+}
+
+.customCursorBlack {
+  width: 15px;
+  height: 15px;
+  background-color: black; 
+  border-radius: 50%;
+  position: fixed; /* Utilisez "fixed" pour que le curseur suive la souris */
+  pointer-events: none; /* Permettre les interactions avec les éléments sous le curseur */
+  z-index: 9999; /* Assurez-vous qu'il est au-dessus du contenu */
+}

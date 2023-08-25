@@ -1,12 +1,14 @@
 import styles from "../styles/Home.module.css";
 import Menu from "./Menu";
 import Background from "./Background";
+import CustomCursor from "./CustomCursor"
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
 
 function Contact() {
   return (
     <div>
       <main className={styles.main}>
+        <CustomCursor/>
         <div className={styles.containerContact}>
           <div className={styles.itemContact}>Email: joan.mas23@gmail.com</div>
           <div className={styles.itemContact}>
