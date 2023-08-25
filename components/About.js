@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 import Menu from "./Menu";
 import Background from "./Background";
 
-function Portfolio() {
+function About() {
   return (
     <div>
       <main className={styles.main}>
@@ -13,4 +13,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default About;

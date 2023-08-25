@@ -1,27 +1,19 @@
 import styles from "../styles/Menu.module.css";
 import Link from "next/link";
-import { Button, ConfigProvider } from "antd";
+
 
 function Menu() {
   return (
-    <ConfigProvider theme={{
-        token: {
-          // Seed Token
-          colorPrimary: 'grey',
-          borderRadius: 2,
-  
-          // Alias Token
-          colorBgContainer: 'white',
-        },
-      }}>
+    
       <div className={styles.menuContainer}>
-        <div></div>
-        <Link href="/"><Button className={styles.menuItem}>HOME</Button></Link>
-        <Link href="/portfolio"><Button className={styles.menuItem}>PORTFOLIO</Button></Link>
-        <Link href="/info"><Button className={styles.menuItem}>INFO</Button></Link>
-        <Link href="/contact"><Button className={styles.menuItem}>CONTACT</Button></Link>
+ 
+        <Link href="/" className={styles.menuItem}>Home</Link>
+        <Link href="/portfolio" className={styles.menuItem}>Portfolio</Link>
+        <Link href="/about" className={styles.menuItem}>About</Link>
+        <Link href="/contact" className={styles.menuItem}>Contact</Link>
+
       </div>
-    </ConfigProvider>
+    
   );
 }
 

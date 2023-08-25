@@ -5,18 +5,22 @@
 
 .menuContainer {
   display: flex;
-  flex-direction: column;
   position: absolute;
-  background-color: white;
-  width: 20%;
+  top: 200px;
+  min-width: 50px;
   height: auto;
   border: solid;
   border-width: 1px;
   border-color: black;
+  border-radius: 10%;
 }
 
 .menuItem {
   font-family: "Manrope", sans-serif;
   font-size: 10;
   font-weight: 50;
+}
+
+.menuItem:hover {
+  font-style: italic;
 }
