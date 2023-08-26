@@ -33,8 +33,8 @@ function Background() {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,-25"
       />
-      <video autoPlay loop muted className={styles.video} style={inverseColor}>
-        <source src={BgVideo} type="video/mp4" />
+      <video autoPlay loop muted className={styles.video} style={inverseColor} src={BgVideo} type="video/mp4">
+        {/* <source  /> */}
       </video>
       <div className={styles.header}>
         <div className={styles.idTitle}>
