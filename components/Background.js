@@ -1,5 +1,6 @@
 import styles from "../styles/Background.module.css";
 import BgVideo from "../assets/background.mp4";
+import BgPoster from "../assets/BgPoster.png"
 import { useState } from "react";
 
 import { useDispatch, useSelector } from 'react-redux';
@@ -35,7 +36,8 @@ function Background() {
       />
 
 
-      <video autoPlay loop muted playsInline className={styles.video} style={inverseColor} src={BgVideo} type="video/mp4">
+      <video autoPlay loop muted playsInline className={styles.video} style={inverseColor} poster={BgPoster}>
+        <source src={BgVideo} type="video/mp4" />
       </video>
   
     
