@@ -11,7 +11,7 @@ function About() {
     <div>
       <main className={styles.main}>
       <CustomCursor />
-        <div className={styles.containerAbout}>
+        {/* <div className={styles.containerAbout}>
           <div className={styles.itemAbout}>
             <Image
               src={picProfile}
@@ -27,7 +27,7 @@ function About() {
               <a href={cvJoanMas} download="CvJoanMas" className={styles.cv}>Curriculum Vitae</a>
             
           
-        </div>
+        </div> */}
 
         <Background />
         <Menu />

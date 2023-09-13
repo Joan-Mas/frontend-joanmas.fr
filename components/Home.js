@@ -1,17 +1,15 @@
 import styles from "../styles/Home.module.css";
 import Menu from "./Menu";
 import Background from "./Background";
-import CustomCursor from "./CustomCursor"
+import CustomCursor from "./CustomCursor"; //! idée de curseur circulaire
 
 function Home() {
   return (
-  
-      <main className={styles.main}>
-      <CustomCursor />
-        <Background/>
-        <Menu/>
-      </main>
-  
+    <main className={styles.main}>
+      <CustomCursor/>
+      <Background />
+      <Menu />
+    </main>
   );
 }
 

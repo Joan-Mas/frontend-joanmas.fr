@@ -9,7 +9,7 @@ function Contact() {
     <div>
       <main className={styles.main}>
         <CustomCursor/>
-        <div className={styles.containerContact}>
+        {/* <div className={styles.containerContact}>
           <div className={styles.itemContact}>Email: joan.mas23@gmail.com</div>
           <div className={styles.itemContact}>
             On the Internet:{" "}
@@ -30,7 +30,7 @@ function Contact() {
             </a>
             .
           </div>
-        </div>
+        </div> */}
         <Background />
         <Menu />
       </main>

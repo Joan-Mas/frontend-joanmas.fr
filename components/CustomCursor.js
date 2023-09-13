@@ -8,17 +8,22 @@ const CustomCursor = () => {
 
   const onOffCursor = useSelector((state) => state.mouse.value);
   console.log(onOffCursor)
-  
-  
-    let styleClass
-    if(onOffCursor === false) {styleClass=styles.customCursorBlack} else {styleClass=styles.customCursor}
+
+  let styleClass
+  if(onOffCursor === false) {
+    styleClass = styles.customCursorBlack;
+  } else {
+    styleClass = styles.customCursor;
+  }
 
   useEffect(() => {
     const handleMouseMove = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    document.addEventListener('mousemove', handleMouseMove);
+    if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+      document.addEventListener('mousemove', handleMouseMove);
+    }
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);

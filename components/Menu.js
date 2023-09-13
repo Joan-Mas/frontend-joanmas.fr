@@ -14,12 +14,10 @@ function Menu() {
   return (
     
       <div className={styles.menuContainer}>
-
         <Link href="/"><div className={styles.menuItem} onClick={() => resetLight()}>Home</div></Link>
         <Link href="/portfolio"><div className={styles.menuItem} onClick={() => resetLight()}>Portfolio</div></Link>
         <Link href="/about"><div className={styles.menuItem} onClick={() => resetLight()}>About</div></Link>
         <Link href="/contact"><div className={styles.menuItem} onClick={() => resetLight()}>Contact</div></Link>
-
       </div>
     
   );

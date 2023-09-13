@@ -24,6 +24,6 @@
 /* Pour les appareils mobiles */
 @media (max-width: 767px) {
   .customCursor, .customCursorBlack {
-    cursor: pointer; /* Utilisez le curseur par défaut sur les appareils mobiles */
+    display: none; /* Cachez le curseur personnalisé sur les appareils mobiles */
   }
 }

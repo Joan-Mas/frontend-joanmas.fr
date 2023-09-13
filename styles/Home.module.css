@@ -4,6 +4,16 @@
   padding: 4rem 0;
 }
 
+.curseurCirculaire {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000; /* Couleur de la bordure du cercle */
+  border-radius: 50%; /* Transforme en cercle */
+  position: fixed; /* Position fixe pour suivre la souris */
+  pointer-events: none; /* Permet les interactions avec les éléments en dessous */
+  z-index: 9999; /* Assurez-vous qu'il soit au-dessus du contenu */
+}
+
 /*! CONTACT ---------------------*/
 
 .containerContact {

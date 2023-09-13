@@ -1,15 +1,12 @@
 /* Styles de base pour les écrans plus larges */
 .container {
   width: 100vw;
-  padding: 10px 0px 10px 10px;
+  padding: 10px;
 }
 
 .menuContainer {
   display: flex;
-  position: absolute;
-  bottom: 5%;
-  right: 2%;
-  width: 50%;
+  width: 100vw;
   height: auto;
 }
 
@@ -22,41 +19,7 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-/* Média query pour les écrans plus étroits, par exemple les tablettes */
-@media (max-width: 768px) {
-  .menuContainer {
-    width: 70%; 
-    bottom: 5%; 
-    right: 5%; 
-  }
-
-  .menuItem {
-    font-size: 40px; 
-  }
-}
-
-/* Média query pour les petits écrans, comme les smartphones */
-@media (max-width: 480px) {
-  .container {
-    padding: 5px; 
-  }
-
-  .menuContainer {
-    flex-direction: row; 
-    align-items: center; 
-    bottom: 0;
-    right: 0;
-    width: 100%; 
-  }
-
-  .menuItem {
-    padding: 10px; 
-    font-size: 30px; 
-  }
-}
-
 .menuItem:hover {
   font-style: italic;
   opacity: 0.7;
-  
 }
