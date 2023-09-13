@@ -4,7 +4,6 @@ import BgPoster from "../assets/bgposter.png";
 import BackgroundG from "../assets/background.gif";
 import { useState } from "react";
 import Image from "next/image";
-
 import { useDispatch, useSelector } from "react-redux";
 import { cursorBorW } from "../reducers/mouse";
 
@@ -37,17 +36,11 @@ function Background() {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,-25"
       />
 
-      {/* <video autoPlay loop muted playsInline className={styles.video} style={inverseColor} poster={BgPoster}>
+      <video autoPlay loop muted playsInline className={styles.video} style={inverseColor} poster={BgPoster}>
         <source src={BgVideo} type="video/mp4" />
-      </video> */}
+      </video> 
 
-      <Image
-        className={styles.video}
-        style={inverseColor}
-        src={BackgroundG}
-        alt="bg"
-      />
-
+      
       <div className={styles.header}>
         <div className={styles.idTitle}>
           <h1 className={styles.title}>Joan Mas</h1>
