@@ -19,7 +19,7 @@ function Home() {
     <main className={styles.main}>
       {loading ? (
         <div>
-          <img src="https://media.giphy.com/media/cnzP4cmBsiOrccg20V/giphy.gif" width="480" height="480"  alt='loading'/>
+          <img src="https://media.giphy.com/media/Jszcp6fopxPkjzpdGw/giphy.gif"  alt='loading'/>
         </div>
       ) : (
         <div>
