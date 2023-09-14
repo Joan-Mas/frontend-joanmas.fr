@@ -1,11 +1,9 @@
 import styles from "../styles/Background.module.css";
-import BgVideo from "../assets/background.mp4";
-import BgPoster from "../assets/bgposter.png";
-
 import { useState } from "react";
-import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import { cursorBorW } from "../reducers/mouse";
+import Image from "next/image";
+import BgG from '../assets/background-star.gif'
 
 function Background() {
   const [light, setLight] = useState(false);
@@ -36,17 +34,13 @@ function Background() {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,-25"
       />
 
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
+      <Image
         className={styles.video}
         style={inverseColor}
-        poster={BgPoster}
-      >
-        <source src={BgVideo} type="video/mp4" />
-      </video>
+        src={BgG} alt='loading'
+      />
+  
+     
 
       <div className={styles.header}>
         <div className={styles.idTitle}>

@@ -1,19 +1,14 @@
 /* Styles de base pour les écrans plus larges */
-.container {
-  width: 100vw;
-  padding: 10px;
-}
 
 .menuContainer {
-  display: flex;
   width: 100vw;
-  height: auto;
+  height: 10vh;
 }
 
 .menuItem {
   padding: 20px;
   font-family: "Manrope", sans-serif;
-  font-size: 50px;
+  font-size: 10vw;
   font-weight: 200;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
