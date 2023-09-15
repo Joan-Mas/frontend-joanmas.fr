@@ -7,7 +7,7 @@ import { cursorBorW } from "../reducers/mouse";
 import React, { useState, useEffect } from "react";
 
 function Home() {
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   const [light, setLight] = useState(false);
 
   const dispatch = useDispatch();
@@ -22,18 +22,18 @@ function Home() {
     } else {
       setLight(false);
     }
-    addLight();
+    // addLight();
   };
 
   const inverseColor = {
     filter: light === true ? "invert(1)" : "invert(0)",
   };
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 1000);
+  // }, []);
 
   return (
     <main className={styles.main} style={inverseColor}>
