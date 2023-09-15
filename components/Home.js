@@ -41,10 +41,10 @@ function Home() {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,-25"
       />
-      {loading ? (
+      {/* {loading ? (
         <div className={styles.loading}>
         </div>
-      ) : (
+      ) : ( */}
         <div>
           <CustomCursor />
           {/* <Background /> */}
@@ -64,7 +64,7 @@ function Home() {
           </div>
           <Menu />
         </div>
-      )}
+      {/* )} */}
     </main>
   );
 }
