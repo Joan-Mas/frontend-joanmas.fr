@@ -6,26 +6,26 @@ import Image from "next/image";
 import BgG from '../assets/background-star.gif'
 
 function Background() {
-  const [light, setLight] = useState(false);
+  // const [light, setLight] = useState(false);
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const addLight = () => {
-    dispatch(cursorBorW(light));
-  };
+  // const addLight = () => {
+  //   dispatch(cursorBorW(light));
+  // };
 
-  const handleClick = () => {
-    if (light === false) {
-      setLight(true);
-    } else {
-      setLight(false);
-    }
-    addLight();
-  };
+  // const handleClick = () => {
+  //   if (light === false) {
+  //     setLight(true);
+  //   } else {
+  //     setLight(false);
+  //   }
+  //   addLight();
+  // };
 
-  const inverseColor = {
-    filter: light === true ? "invert(1)" : "invert(0)",
-  };
+  // const inverseColor = {
+  //   filter: light === true ? "invert(1)" : "invert(0)",
+  // };
 
   return (
     <div>
@@ -34,11 +34,11 @@ function Background() {
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,-25"
       />
 
-      <Image
+      {/* <Image
         className={styles.video}
         style={inverseColor}
         src={BgG} alt='loading'
-      />
+      /> */}
   
      
 

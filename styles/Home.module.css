@@ -2,6 +2,9 @@
   width: 100vw;
   height: 100vh;
   padding: 4rem 0;
+  background-image: url("../assets/background-star.gif");
+  background-position: center;
+  background-size: cover;
 }
 
 .curseurCirculaire {
@@ -96,3 +99,52 @@
   cursor: none;
 }
 
+/*!import background*/
+
+.video {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    position: fixed;
+    /* z-index: -2000; */
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2%;
+  }
+  
+  .idTitle {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    height: 3%;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 50;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  }
+  
+  .underTitle {
+    height: 2%;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 10;
+    font-weight: 50;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  }
+
+/*! loading */
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXkxZzZtOGFvZnpkYWEyaXcyMHY5OGI2OWhkcnY4MXYxeTN4aHd4OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cnzP4cmBsiOrccg20V/giphy.gif");
+}
