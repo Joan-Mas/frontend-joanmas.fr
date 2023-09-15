@@ -1,7 +1,6 @@
 .main {
   width: 100vw;
   height: 100vh;
-  /* padding: 4rem 0; */
   background-image: url("../assets/background-star.gif");
   background-position: center;
   background-size: cover;
@@ -38,7 +37,6 @@
   padding: 2px;
 }
 
-
 /*! ABOUT ---------------------*/
 
 .containerAbout {
@@ -64,7 +62,6 @@
   height: auto;
   border: solid 2px white;
   border-radius: 25px;
-
 }
 
 .cv {
@@ -79,7 +76,6 @@
   border: solid 2px white;
   border-radius: 25px;
   text-decoration: none;
-  
 }
 
 .cv:hover {
@@ -102,42 +98,42 @@
 /*!import background*/
 
 .video {
-    object-fit: cover;
-    width: 100%;
-    height: 80%;
-    position: fixed;
-    /* z-index: -2000; */
-  }
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+  position: fixed;
+  /* z-index: -2000; */
+}
 
-  .header {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 2%;
-  }
-  
-  .idTitle {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .title {
-    height: 3%;
-    color: white;
-    font-family: "Manrope", sans-serif;
-    font-size: 50;
-    font-weight: 100;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-  }
-  
-  .underTitle {
-    height: 2%;
-    color: white;
-    font-family: "Manrope", sans-serif;
-    font-size: 10;
-    font-weight: 50;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-  }
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2%;
+}
+
+.idTitle {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 3%;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 50;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.underTitle {
+  height: 2%;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 10;
+  font-weight: 50;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
 
 /*! loading */
 
@@ -147,4 +143,13 @@
   background-size: cover;
   background-position: center;
   background-image: url("https://media.giphy.com/media/tA4R6biK5nlBVXeR7w/giphy.gif");
+}
+
+/*! portfolio */
+
+.Portfolio {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 10;
+  font-weight: 50;
 }

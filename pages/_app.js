@@ -3,11 +3,11 @@ import Head from "next/head";
 
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
-import mouse from "../reducers/mouse";
+import localPage from "../reducers/localPage.js";
 
 
 const store = configureStore({
-  reducer: { mouse },
+  reducer: { localPage },
 });
 
 function App({ Component, pageProps }) {

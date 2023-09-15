@@ -1,20 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/CustomCursor.module.css';
-import { useSelector } from 'react-redux'; 
 
 const CustomCursor = () => {
 
   const [position, setPosition] = useState({ x: 0, y: 0 });
-
-  const onOffCursor = useSelector((state) => state.mouse.value);
-  console.log(onOffCursor)
-
-  let styleClass
-  if(onOffCursor === false) {
-    styleClass = styles.customCursorBlack;
-  } else {
-    styleClass = styles.customCursor;
-  }
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -30,7 +19,7 @@ const CustomCursor = () => {
     };
   }, []);
 
-  return <div className={styleClass} style={{ left: position.x, top: position.y }} />;
+  return <div className={styles.customCursor} style={{ left: position.x, top: position.y }} />;
 };
 
 export default CustomCursor;
