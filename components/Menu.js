@@ -1,16 +1,16 @@
 import styles from "../styles/Menu.module.css";
-import { changePage } from '../reducers/localPage';
+//import { changePage } from '../reducers/localPage';
 
-import { useDispatch } from 'react-redux';
+//import { useDispatch } from 'react-redux';
 import Link from "next/link";
 
 function Menu() {
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const setPage = (string) => {
-    dispatch(changePage(string))
-  };
+  // const setPage = (string) => {
+  //   dispatch(changePage(string))
+  // };
 
   return (
     

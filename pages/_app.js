@@ -22,7 +22,7 @@ function App({ Component, pageProps }) {
         <Head>
           <title>Joan Mas</title>
           <link rel='canonical' href={canonicalUrl}/>
-          <meta name="description" content="I am a javaScript fullstack developer junior, this is my portfolio."/>
+          <meta name="description" content="I am a JavaScript fullstack developer junior, this is my portfolio."/>
         </Head>
         <Component {...pageProps} />
       </Provider>

@@ -10,7 +10,7 @@ function Portfolio() {
         <CustomCursor />
         <EnTete />
         <div className={styles.Portfolio}>ici mon Portfolio !</div>
-        <Menu />
+        <Menu className={styles.menu}/>
       </div>
     </main>
   );

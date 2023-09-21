@@ -34,7 +34,7 @@ function Contact() {
             .
           </div>
         </div>
-        <Menu />
+        <Menu className={styles.menu}/>
       </div>
     </main>
   );

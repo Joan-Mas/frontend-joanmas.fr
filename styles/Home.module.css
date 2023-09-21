@@ -1,9 +1,23 @@
+/* version mobile */
+@media (max-width: 767px) {
+
+}
+
+/* version tablette & pc */
+@media (min-width: 768px) {
+
+
+
+}
+
 .main {
   width: 100vw;
   height: 100vh;
   background-image: url("../assets/background-star.gif");
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: space-around;
 }
 
 .curseurCirculaire {
@@ -15,6 +29,8 @@
   pointer-events: none; /* Permet les interactions avec les éléments en dessous */
   z-index: 9999; /* Assurez-vous qu'il soit au-dessus du contenu */
 }
+
+
 
 /*! CONTACT ---------------------*/
 
@@ -93,16 +109,6 @@
 .link:hover {
   color: rgb(33, 222, 251);
   cursor: none;
-}
-
-/*!import background*/
-
-.video {
-  object-fit: cover;
-  width: 100%;
-  height: 80%;
-  position: fixed;
-  /* z-index: -2000; */
 }
 
 .header {

@@ -29,7 +29,7 @@ function About() {
             </a>
           </div>
         </div>
-        <Menu />
+        <Menu className={styles.menu}/>
       </div>
     </main>
   );
