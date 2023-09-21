@@ -14,15 +14,15 @@ function About() {
         <EnTete />
         <div>
           <div className={styles.containerAbout}>
-            <div className={styles.itemAbout}>
+            
               <Image
                 src={picProfile}
-                width={800}
-                height={800}
-                alt="Joan Mas"
-                style={{ borderRadius: "20px" }}
+                width={200}
+                height={200}
+                alt="photo de profil de Joan Mas"
+                style={{ borderRadius: "20px"}}
               />
-            </div>
+            
 
             <a href={cvJoanMas} download="CvJoanMas" className={styles.cv}>
               Curriculum Vitae
