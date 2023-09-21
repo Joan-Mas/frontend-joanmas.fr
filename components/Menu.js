@@ -2,6 +2,7 @@ import styles from "../styles/Menu.module.css";
 import { changePage } from '../reducers/localPage';
 
 import { useDispatch } from 'react-redux';
+import Link from "next/link";
 
 function Menu() {
 
@@ -14,10 +15,10 @@ function Menu() {
   return (
     
       <div className={styles.menuContainer}>
-        <div className={styles.menuItem} onClick={() => setPage('Home')}>Home</div>
-        <div className={styles.menuItem} onClick={() => setPage('Portfolio')}>Portfolio</div>
-        <div className={styles.menuItem} onClick={() => setPage('About')}>About</div>
-        <div className={styles.menuItem} onClick={() => setPage('Contact')}>Contact</div>
+        <Link href="/"><div className={styles.menuItem}>Home</div></Link>
+        <Link href="/portfolio"><div className={styles.menuItem}>Portfolio</div></Link>
+        <Link href="/about"><div className={styles.menuItem}>About</div></Link>
+        <Link href="/contact"><div className={styles.menuItem}>Contact</div></Link>
       </div>
     
   );

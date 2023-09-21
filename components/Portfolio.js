@@ -1,10 +1,18 @@
 import styles from "../styles/Home.module.css";
+import Menu from "./Menu";
+import EnTete from "./EnTete";
+import CustomCursor from "./CustomCursor"; // curseur circulaire
 
 function Portfolio() {
   return (
-    <div className={styles.Portfolio}>
-        ici mon Portfolio !
-    </div>
+    <main className={styles.main} /*style={inverseColor}*/>
+      <div>
+        <CustomCursor />
+        <EnTete />
+        <div className={styles.Portfolio}>ici mon Portfolio !</div>
+        <Menu />
+      </div>
+    </main>
   );
 }
 

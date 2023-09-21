@@ -16,6 +16,7 @@ function App({ Component, pageProps }) {
       <Provider store={store}>
         <Head>
           <title>Joan Mas</title>
+          <meta name="description" content="I am a javaScript fullstack developer junior, this is my portfolio."/>
         </Head>
         <Component {...pageProps} />
       </Provider>

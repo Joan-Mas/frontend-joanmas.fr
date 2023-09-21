@@ -4,26 +4,34 @@ import Image from "next/image";
 import picProfile from "../assets/profil.png"; //penser à importer l'image à la stocker sous cette forme pour utiliser le component image
 import cvJoanMas from "../assets/cvJoanMas.pdf";
 import CustomCursor from "./CustomCursor";
+import EnTete from "./EnTete";
 
 function About() {
   return (
-    <div>
-      <div className={styles.containerAbout}>
-        <div className={styles.itemAbout}>
-          <Image
-            src={picProfile}
-            width={200}
-            height={200}
-            alt="Joan Mas"
-            style={{ borderRadius: "20px" }}
-          />
-        </div>
+    <main className={styles.main} /*style={inverseColor}*/>
+      <div>
+        <CustomCursor />
+        <EnTete />
+        <div>
+          <div className={styles.containerAbout}>
+            <div className={styles.itemAbout}>
+              <Image
+                src={picProfile}
+                width={800}
+                height={800}
+                alt="Joan Mas"
+                style={{ borderRadius: "20px" }}
+              />
+            </div>
 
-        <a href={cvJoanMas} download="CvJoanMas" className={styles.cv}>
-          Curriculum Vitae
-        </a>
+            <a href={cvJoanMas} download="CvJoanMas" className={styles.cv}>
+              Curriculum Vitae
+            </a>
+          </div>
+        </div>
+        <Menu />
       </div>
-    </div>
+    </main>
   );
 }
 
