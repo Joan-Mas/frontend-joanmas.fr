@@ -9,7 +9,7 @@ import EnTete from "./EnTete";
 function About() {
   return (
     <main className={styles.main} /*style={inverseColor}*/>
-      <div>
+      <div className={styles.container}>
         <CustomCursor />
         <EnTete />
         <div>

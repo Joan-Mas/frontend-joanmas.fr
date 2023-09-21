@@ -7,7 +7,7 @@ import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
 function Contact() {
   return (
     <main className={styles.main} /*style={inverseColor}*/>
-      <div>
+      <div className={styles.container}>
         <CustomCursor />
         <EnTete />
         <div className={styles.containerContact}>

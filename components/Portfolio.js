@@ -6,7 +6,7 @@ import CustomCursor from "./CustomCursor"; // curseur circulaire
 function Portfolio() {
   return (
     <main className={styles.main} /*style={inverseColor}*/>
-      <div>
+      <div className={styles.container}>
         <CustomCursor />
         <EnTete />
         <div className={styles.Portfolio}>ici mon Portfolio !</div>
