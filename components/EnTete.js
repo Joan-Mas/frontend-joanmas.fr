@@ -27,7 +27,7 @@ function EnTete() {
         <h1 className={styles.title}>
           Joan Mas
           <div>
-            Développeur fullstack Web & Mobile{" "}
+            Developer fullstack Web & Mobile{" "}
             <span
               className="material-symbols-outlined"
               // onClick={() => handleClick()}

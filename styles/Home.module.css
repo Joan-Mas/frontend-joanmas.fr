@@ -1,20 +1,19 @@
 /* version mobile */
 @media (max-width: 767px) {
-.container {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 100%;
-}
+  }
 
-.menu {
-  align-self: flex-end;
-}
+  .menu {
+    align-self: flex-end;
+  }
 }
 
 /* version tablette & pc */
 @media (min-width: 768px) {
-
 }
 
 .main {
@@ -23,7 +22,6 @@ justify-content: space-between;
   background-image: url("../assets/background-star.gif");
   background-position: center;
   background-size: cover;
-  
 }
 
 .curseurCirculaire {
@@ -35,8 +33,6 @@ justify-content: space-between;
   pointer-events: none; /* Permet les interactions avec les éléments en dessous */
   z-index: 9999; /* Assurez-vous qu'il soit au-dessus du contenu */
 }
-
-
 
 /*! CONTACT ---------------------*/
 
@@ -63,7 +59,7 @@ justify-content: space-between;
 
 .containerAbout {
   position: absolute;
-  width: 100%;
+  width: 300%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -147,7 +143,6 @@ justify-content: space-between;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-
 /*! portfolio */
 
 .Portfolio {
@@ -155,4 +150,5 @@ justify-content: space-between;
   font-family: "Manrope", sans-serif;
   font-size: 10;
   font-weight: 50;
+  padding: 20px;
 }

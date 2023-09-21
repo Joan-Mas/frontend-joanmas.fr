@@ -9,7 +9,7 @@ function Portfolio() {
       <div className={styles.container}>
         <CustomCursor />
         <EnTete />
-        <div className={styles.Portfolio}>ici mon Portfolio !</div>
+        <div className={styles.Portfolio}>here my portfolio !</div>
         <Menu className={styles.menu}/>
       </div>
     </main>
