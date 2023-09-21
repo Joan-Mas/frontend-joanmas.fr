@@ -12,10 +12,10 @@ function Home() {
   
   return (
     <main className={styles.main} /*style={inverseColor}*/>
-      <div>
+      <div className={styles.container}>
         <CustomCursor />
         <EnTete/>
-        <Menu />
+        <Menu className={styles.menu}/>
       </div>
     </main>
   );

@@ -4,9 +4,11 @@
   .menuContainer {
     display: flex;
     flex-direction: row;
+    height: 100;
   }
 
   .menuItem {
+    height: 100px;
     padding: 20px;
     font-family: "Manrope", sans-serif;
     font-size: 200;

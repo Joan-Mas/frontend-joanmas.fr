@@ -1,12 +1,13 @@
 /* version mobile */
 @media (max-width: 767px) {
-
+.container {
+display: flex;
+flex-direction: column;
+}
 }
 
 /* version tablette & pc */
 @media (min-width: 768px) {
-
-
 
 }
 
@@ -16,8 +17,7 @@
   background-image: url("../assets/background-star.gif");
   background-position: center;
   background-size: cover;
-  display: flex;
-  justify-content: space-around;
+  
 }
 
 .curseurCirculaire {
@@ -141,15 +141,6 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
 
-/*! loading */
-
-.loading {
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url("https://media.giphy.com/media/tA4R6biK5nlBVXeR7w/giphy.gif");
-}
 
 /*! portfolio */
 
