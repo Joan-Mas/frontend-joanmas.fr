@@ -17,19 +17,27 @@ function About() {
             
               <Image
                 src={picProfile}
-                width={200}
-                height={200}
+                width={100}
+                height={100}
                 alt="photo de profil de Joan Mas"
-                style={{ borderRadius: "20px"}}
+                style={{ borderRadius: "10px" }}
               />
-            
+              <div className={styles.divSupAbout}>
+                Technique et créatif, je conçois et développe des applications
+                web et mobiles. Je propose des solutions innovantes et concrètes
+                afin d’optimiser des interfaces et résoudre des problèmes
+                spécifiques.
+              </div>
+           
 
             <a href={cvJoanMas} download="CvJoanMas" className={styles.cv}>
               Curriculum Vitae
             </a>
           </div>
         </div>
-        <Menu className={styles.menu}/>
+        <div>
+          <Menu className={styles.menu} />
+        </div>
       </div>
     </main>
   );

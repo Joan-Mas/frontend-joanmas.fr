@@ -10,7 +10,7 @@ function Projects() {
         <CustomCursor />
         <EnTete />
         <div className={styles.projects}> here my Projects !</div>
-        <Menu className={styles.menu}/>
+        <div><Menu className={styles.menu}/></div>
       </div>
     </main>
   );

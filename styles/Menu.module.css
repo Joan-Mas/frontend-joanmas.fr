@@ -4,15 +4,15 @@
   .menuContainer {
     display: flex;
     flex-direction: row;
-    height: 100;
+    justify-content: center;
   }
 
   .menuItem {
     
     padding: 5%;
     font-family: "Manrope", sans-serif;
-    font-size: 100;
-    font-weight: 10;
+    font-size: 100%;
+    font-weight: 100;
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
   }
@@ -27,17 +27,17 @@
 /* version tablette & pc */
 @media (min-width: 768px) {
   .menuContainer {
-    width: 100vw;
-    height: 10vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .menuItem {
+    
     padding: 5%;
     font-family: "Manrope", sans-serif;
-    font-size: 20;
-    font-weight: 200;
+    font-size: 100%;
+    font-weight: 100;
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
   }
@@ -45,5 +45,6 @@
   .menuItem:hover {
     font-style: italic;
     opacity: 0.7;
-  }
+
+}
 }

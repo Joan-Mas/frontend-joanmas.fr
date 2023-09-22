@@ -99,6 +99,11 @@
   cursor: none;
 }
 
+.divSupAbout {
+  
+  margin: 5%
+}
+
 .link {
   color: white;
 }
@@ -111,7 +116,9 @@
 .header {
   display: flex;
   flex-direction: row-reverse;
-  padding: 10%;
+  justify-content: center;
+  
+  margin: 10%;
 }
 
 .idTitle {
