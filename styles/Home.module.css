@@ -38,14 +38,14 @@
 
 .containerContact {
   position: absolute;
-  padding: 20px;
+  padding: 5%;
   border-radius: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
+  font-size: 100%;
   font-weight: 100;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   background-color: rgba(248, 51, 169, 0.515);
@@ -58,23 +58,19 @@
 /*! ABOUT ---------------------*/
 
 .containerAbout {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
+  font-size: 100%;
   font-weight: 100;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .itemAbout {
-  margin: 20px;
+  margin: 5%;
   width: 10%;
   height: auto;
   border: solid 2px white;
@@ -87,17 +83,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
-  width: 200px;
-  height: 30px;
+  margin: 5%;
+  width: 50%;
+  height: 10%;
   border: solid 2px white;
   border-radius: 25px;
   text-decoration: none;
 }
 
 .cv:hover {
-  width: 220px;
-  height: 40px;
+  width: 55%;
+  height: 20%;
   font-style: bold;
   background-color: rgba(248, 51, 169, 0.515);
   cursor: none;
@@ -115,7 +111,7 @@
 .header {
   display: flex;
   flex-direction: row-reverse;
-  padding: 20px;
+  padding: 10%;
 }
 
 .idTitle {
@@ -144,10 +140,10 @@
 
 /*! portfolio */
 
-.Portfolio {
+.projects {
   color: white;
   font-family: "Manrope", sans-serif;
   font-size: 10;
   font-weight: 50;
-  padding: 20px;
+  padding: 10%;
 }
