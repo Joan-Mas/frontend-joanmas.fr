@@ -51,30 +51,3 @@ const MySlider = () => {
 
 export default MySlider;
 
-// <div className={styles.swiperContainer}>
-//   <div className={styles.swiperWrapper}>
-//     <div className={styles.swiperSlide}>
-
-//     </div>
-//     <div className={styles.swiperSlide}>
-//       <Image
-//         src={picProfile}
-//         width={100}
-//         height={100}
-//         alt="photo de profil de Joan Mas"
-//         style={{ borderRadius: "10px" }}
-//       />
-//     </div>
-//     <div className={styles.swiperSlide}>
-//       <Image
-//         src={picProfile}
-//         width={100}
-//         height={100}
-//         alt="photo de profil de Joan Mas"
-//         style={{ borderRadius: "10px" }}
-//       />
-//     </div>
-//   </div>
-//   <div className={styles.swiperButtonNext}></div>
-//   <div className={styles.swiperButtonPrev}></div>
-// </div>
