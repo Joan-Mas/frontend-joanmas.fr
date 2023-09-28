@@ -1,6 +1,8 @@
 import styles from "../styles/Home.module.css";
 import Menu from "./Menu";
 import EnTete from "./EnTete";
+import MySlider from "./SliderComponent";
+
 import CustomCursor from "./CustomCursor"; // curseur circulaire
 
 function Projects() {
@@ -9,8 +11,10 @@ function Projects() {
       <div className={styles.container}>
         <CustomCursor />
         <EnTete />
-        <div className={styles.projects}> here my Projects !</div>
-        <div><Menu className={styles.menu}/></div>
+        <MySlider />
+        <div>
+          <Menu className={styles.menu} />
+        </div>
       </div>
     </main>
   );
