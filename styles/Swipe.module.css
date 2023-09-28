@@ -1,0 +1,21 @@
+.swiperContainer {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiperWrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.swiperSlide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* .img {
+  max-width: 100%;
+  height: auto;
+} */
